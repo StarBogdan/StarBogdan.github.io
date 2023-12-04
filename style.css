@@ -1,0 +1,208 @@
+body{
+    width: 1928px;
+height: 3800px;
+flex-shrink: 0;
+    background: #03CAF5;  
+    }
+    a{color: #ebe5e5;
+        font-family: Caesar Dressing;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;}
+        h1{
+            color: #000;
+            font-family: Caesar Dressing;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal; 
+        }
+header{
+    display: flex;
+    flex-direction: row;
+   background-color: black;
+   justify-content: space-between;
+   padding: 10px 20px;
+}
+    .logo img{
+        height: 100px;
+    }    
+
+    .menu{
+     list-style-type: none;
+     margin-left: 600px;
+     display: flex;
+     gap: 25px;
+    }
+    .menu a{
+        color: aliceblue;
+        display: block;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+
+    .mainpage{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 120px;
+        background-color: rgb(11, 155, 218);
+    }
+    .image-section{
+    
+        width: 50%;
+        position: relative;
+        left: 300px;
+    }
+    .text-section{
+    
+        width: 50%;
+    }
+    .image-section img{
+        max-width: 100%;
+        height: auto; 
+        position: relative;
+        
+    }
+    .suurtext{
+        color: #000;
+font-family: Caesar Dressing;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+
+    .keskmtext{
+        color: #000;
+font-family: Caesar Dressing;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .vaiketext{
+        color: #000;
+font-family: Caesar Dressing;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+
+    .orderbutton{
+        width: 449.934px;
+height: 176.636px;
+flex-shrink: 0;
+border-radius: 60px;
+background: #CF0E0E;
+color: #000;
+font-family: Caesar Dressing;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+
+.button-section{
+        position: relative;
+        right: 1200px;
+        top: 700px;
+    }
+.pattern{
+    position: relative;
+    bottom: 300px;
+    z-index: 0;
+}
+.mainimage{
+    position: relative;
+    z-index: 1;
+}
+.second-div{
+    display: flex;
+}
+
+.picture2{
+    position: relative;
+    top:20px;
+    z-index: 1;
+}
+.pattern2{
+    position: relative;
+    left:400px;
+    bottom: 270px;
+    z-index: 0;
+}
+.third-div{
+display: flex;
+}
+.image-section3{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.img3{
+    width: 33.3%;
+    box-sizing: border-box;
+}
+.suurtext2{
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+
+    color: #000;
+    font-family: Caesar Dressing;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fourt-div{
+    display: flex;
+}
+.image-section4{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.suurtext3{
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+
+    color: #000;
+    font-family: Caesar Dressing;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.img4{
+    width: 33.3%;
+    box-sizing: border-box;
+}
+.footer{
+    display: flex;
+    background-color:red ;
+    height: px;
+}
+
+.suurtext4{
+    position: relative;
+    left: 100px;
+
+}
+.img5{
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+
+    width: 33.3%;
+    box-sizing: border-box;
+}
